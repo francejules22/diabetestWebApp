@@ -21,6 +21,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
                     <SidebarLink to='process' onClick={toggle}>Process</SidebarLink>
                     <SidebarLink to='test' onClick={toggle}>Test</SidebarLink>
+                    <SidebarLink to='tips' onClick={toggle}>Tips</SidebarLink>
                 </SidebarMenu>
                 <SidebarButtonWrap>
                     <SidebarButtonRoute to="/taketest">Take the test</SidebarButtonRoute>

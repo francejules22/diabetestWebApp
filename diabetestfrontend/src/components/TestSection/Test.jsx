@@ -22,7 +22,7 @@ const Test = () =>{
 
                <Fade right>
                     <div className="img-box">
-                         <img src={DiabetesBgTwo} alt="Diabetes Image" className="test-img"></img>
+                         <img src={DiabetesBgTwo} alt="Diabetes BgTwo" className="test-img"></img>
                      </div>     
                </Fade>
               </div>

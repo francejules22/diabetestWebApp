@@ -4,6 +4,7 @@ import Navbar from '../components/NavBar/NavBar';
 import HeroSection from '../components/HomeSection/Hero';
 import AboutSection from '../components/AboutSection/About';
 import ProcessSection from '../components/ProcessSection/Process';
+import TipSection from '../components/Tips/Tips';
 import TestSection from '../components/TestSection/Test';
 import Footer from '../components/Footer/Footer';
 
@@ -24,6 +25,7 @@ const Home = () => {
             <AboutSection />
             <ProcessSection />
             <TestSection />
+            <TipSection />
             <Footer />
         </>
     );
