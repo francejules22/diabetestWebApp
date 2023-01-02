@@ -22,6 +22,7 @@ def y_predict():
 
     if prediction[0] == 1:
         output = "High Risk"
+        
     else:
         output = "Low Risk"
 
