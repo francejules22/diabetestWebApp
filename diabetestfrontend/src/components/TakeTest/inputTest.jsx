@@ -11,6 +11,7 @@ import NegativeDiabetes from "../../assets/NegativeDiabetes.png"
 import PositiveDiabetes from "../../assets/PositiveDiabetes.png"
 
 
+
 const initialState = {
   age: "",
   sex: "",
@@ -140,6 +141,8 @@ const InputTest = () => {
               </label>
               <input
                 type="number"
+                min="19"
+                max="95"
                 name="age"
                 id="age"
                 value={formData.age}
