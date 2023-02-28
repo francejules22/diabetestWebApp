@@ -118,3 +118,7 @@ print('Confusion Matrix : \n' + str(confusion_matrix(y_test, y_pred)))
 ### g.) Saving the Gradient Boosting Model
 joblib.dump(gradient_booster_model, 'Type2Diabetes_model')
 
+
+
+
+

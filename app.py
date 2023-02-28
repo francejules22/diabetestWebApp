@@ -52,3 +52,10 @@ def predict_api():
 
 if __name__ == "_main_":
     app.run(debug=True)
+
+
+
+
+
+
+

@@ -44,7 +44,6 @@ const InputTest = () => {
   /*Form Data that user will input*/
   const [formData, setFormData] = useState(initialState)
 
-
   /*Handle Change*/
   const handleChange = (event) => {
     const { name, value } = event.target
@@ -58,8 +57,7 @@ const InputTest = () => {
       const response = await axiosRequest.post("/predict_api", formData)
 
       if (response.status === 200) {
-        swal
-          .fire({
+        swal.fire({
             html: ` 
           <div className="predict-img">
               <img style="width: 12rem; height: 12rem; @media (min-width: 320px) { width: 5rem; height: 7rem; }" src=${
@@ -74,7 +72,7 @@ const InputTest = () => {
                   }">${response.data.message}</b> of having Type II
                   Diabetes.
               </p>
-          </div>
+          </div> 
         `,
             confirmButtonText: "Test again",
             showCancelButton: true,
