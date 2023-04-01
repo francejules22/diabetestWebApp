@@ -44,7 +44,6 @@ const InputTest = () => {
   /*Form Data that user will input*/
   const [formData, setFormData] = useState(initialState)
 
-
   /*Handle Change*/
   const handleChange = (event) => {
     const { name, value } = event.target
@@ -74,7 +73,7 @@ const InputTest = () => {
                   }">${response.data.message}</b> of having Type II
                   Diabetes.
               </p>
-          </div>
+          </div> 
         `,
             confirmButtonText: "Test again",
             showCancelButton: true,
